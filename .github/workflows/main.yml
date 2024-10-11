@@ -1,4 +1,4 @@
-name: imgsearchpkk
+name: New Project
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
         aws-region: ap-south-1
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync . s3://imgsearchpk --delete
+      run: aws s3 sync . s3://mybuckettt --delete
